@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Happy 1st Anniversary — Rajoshree ❤️ Lov</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="app">
+    <aside class="sidebar" aria-hidden="true">
+      <div class="logo">VS</div>
+      <div class="icons">🔧</div>
+      <div class="icons">📁</div>
+      <div class="spacer"></div>
+      <div class="icons">💜</div>
+    </aside>
+
+    <main class="main">
+      <header class="top">
+        <div class="tabs">
+          <div class="tab active">index.html</div>
+          <div class="tab">style.css</div>
+          <div class="tab">script.js</div>
+        </div>
+        <div class="actions">
+          <button id="downloadBtn" class="btn">Download</button>
+        </div>
+      </header>
+
+      <section class="content">
+        <div class="files">
+          <div class="folder">PROJECT</div>
+          <div class="file current">index.html</div>
+          <div class="file">style.css</div>
+          <div class="file">script.js</div>
+        </div>
+
+        <div class="previewWrap">
+          <!-- Page 1 -->
+          <article class="preview page" id="page1" aria-live="polite">
+            <div class="hearts" id="hearts1"></div>
+            <div class="previewInner">
+              <h1 class="hand">To my Rajoshree — my Babee</h1>
+              <pre class="message" id="messageBox"></pre>
+              <div class="controls">
+                <button class="btn" id="revealBtn">Reveal Message</button>
+                <button class="btn primary" id="celebrateBtn">Celebrate 🎉</button>
+                <button class="btn" id="goto2">Next ➜</button>
+              </div>
+              <div class="meta">From: <strong>Lov / Hubby</strong></div>
+            </div>
+          </article>
+
+          <!-- Page 2 -->
+          <article class="preview page pink" id="page2" style="display:none">
+            <div class="hearts" id="hearts2"></div>
+            <div class="card">
+              <div class="photo" id="photo">
+                <!-- placeholder image: simple SVG portrait -->
+                <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="placeholder photo">
+                  <defs><linearGradient id="pg" x1="0" x2="1" y1="0" y2="1"><stop offset="0" stop-color="#ffe6ef"/><stop offset="1" stop-color="#ffd9e6"/></linearGradient></defs>
+                  <rect width="100%" height="100%" rx="100" fill="url(#pg)"/>
+                  <g transform="translate(40,38)" fill="#7c4760">
+                    <ellipse cx="60" cy="108" rx="46" ry="24" opacity="0.12"/>
+                    <circle cx="60" cy="62" r="34" fill="#8a4f6f"/>
+                    <rect x="26" y="88" width="68" height="56" rx="22" fill="#9f5d7f"/>
+                  </g>
+                </svg>
+              </div>
+              <h2 class="hand smallTitle">Happy 1st Anniversary</h2>
+              <p class="lead">You are my favourite person. Every day with you is my best day.</p>
+              <p class="sign">Love, <strong>Lov / Hubby</strong></p>
+              <div class="controls">
+                <button class="btn" id="backBtn">← Back</button>
+                <button class="btn primary" id="downloadCard">Download Card</button>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
