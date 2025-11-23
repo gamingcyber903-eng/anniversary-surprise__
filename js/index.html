@@ -1,0 +1,198 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Rajoshree ❤️ Lov — Happy Anniversary</title>
+  <style>
+    :root{
+      --pink:#ffe6f0;
+      --accent:#ff6fa3;
+      --muted:#8b6b7a;
+      --card:#fff0f6;
+      --glass: rgba(255,255,255,0.6);
+    }
+    *{box-sizing:border-box}
+    body{font-family:system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial; margin:0; background:linear-gradient(180deg,var(--pink),#fff); color:#4a2540}
+    header{padding:24px 20px; display:flex; align-items:center; justify-content:space-between}
+    .logo{display:flex;gap:12px;align-items:center}
+    .logo .heart{width:48px;height:48px;background:radial-gradient(circle at 30% 30%, #fff, var(--accent));border-radius:50%;display:flex;align-items:center;justify-content:center;color:white;font-weight:700}
+    nav a{margin-left:12px;text-decoration:none;color:var(--muted);font-weight:600}
+    main{max-width:920px;margin:0 auto;padding:20px}/* Pages (3 panels) */
+.pages{position:relative;overflow:hidden;border-radius:16px;padding:20px;background:linear-gradient(180deg, rgba(255,255,255,0.8), rgba(255,255,255,0.6));box-shadow:0 6px 30px rgba(120,30,60,0.08)}
+.page{min-height:420px;padding:28px;transition:transform 600ms cubic-bezier(.2,.9,.3,1);position:absolute;left:0;right:0;top:0}
+.page.hidden{pointer-events:none;opacity:0}
+
+/* page layout */
+.title{font-size:28px;margin-bottom:6px}
+.subtitle{color:var(--muted);margin-bottom:18px}
+p{line-height:1.6;margin:10px 0}
+
+/* footer nav */
+.pager{display:flex;gap:8px;justify-content:center;margin-top:18px}
+.pill{padding:8px 14px;border-radius:999px;background:var(--card);border:1px solid rgba(200,80,130,0.06);cursor:pointer}
+
+/* celebrate button */
+.celebrate{display:inline-flex;align-items:center;gap:10px;padding:12px 18px;border-radius:12px;background:linear-gradient(90deg,var(--accent),#ff9ccf);color:white;border:none;font-weight:700;cursor:pointer;box-shadow:0 8px 24px rgba(255,110,160,0.18)}
+
+/* floating hearts animation */
+.heart-float{position:fixed;pointer-events:none;z-index:9999}
+.heart-svg{width:44px;height:44px;transform-origin:center}
+
+/* cute couple card */
+.couple{display:flex;gap:18px;align-items:center;margin:18px 0}
+.avatar{width:160px;height:160px;border-radius:18px;flex-shrink:0;background:linear-gradient(180deg,#fff,#ffeef8);display:flex;align-items:center;justify-content:center;box-shadow:0 8px 30px rgba(200,80,130,0.06)}
+.avatar svg{width:120px;height:120px}
+
+/* slide effect */
+.page.enter-left{transform:translateX(-110%)}
+.page.enter-right{transform:translateX(110%)}
+.page.active{transform:translateX(0);opacity:1;position:relative}
+
+/* small responsive */
+@media(max-width:760px){.avatar{width:120px;height:120px}.title{font-size:22px}}
+
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <div class="heart">❤</div>
+      <div>
+        <div style="font-weight:800">Rajoshree / Babeeeeee</div>
+        <div style="font-size:12px;color:var(--muted)">Lov / Hubby</div>
+      </div>
+    </div>
+    <nav>
+      <a href="#" onclick="showPage(0);return false">Love Note</a>
+      <a href="#" onclick="showPage(1);return false">Memories</a>
+      <a href="#" onclick="showPage(2);return false">Letter</a>
+    </nav>
+  </header>  <main>
+    <div class="pages">
+      <!-- PAGE 1 -->
+      <section id="page-0" class="page active" style="position:relative">
+        <div class="title">Happy Anniversary, my Rajoshree ❤️</div>
+        <div class="subtitle">To my Babeeeeee — the sweetest chapter of my life</div><div class="couple">
+      <div class="avatar" aria-hidden="true">
+        <!-- simple cute couple SVG illustration -->
+        <svg viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg">
+          <defs>
+            <linearGradient id="g1" x1="0" x2="1">
+              <stop offset="0" stop-color="#ffd9e6"/>
+              <stop offset="1" stop-color="#ffb6d9"/>
+            </linearGradient>
+          </defs>
+          <rect width="120" height="120" rx="16" fill="url(#g1)"/>
+          <g transform="translate(12,12)" fill="#5a3a46">
+            <circle cx="18" cy="22" r="8" fill="#fff" opacity="0.9"/>
+            <circle cx="58" cy="20" r="8" fill="#fff" opacity="0.9"/>
+            <path d="M10 60c12-10 36-10 48 0v14H10z" fill="#fff" opacity="0.95"/>
+            <path d="M66 62c10-8 24-8 34 0v12H66z" fill="#fff" opacity="0.95"/>
+            <circle cx="18" cy="22" r="6" fill="#ffccdf"/>
+            <circle cx="58" cy="20" r="6" fill="#ffd9e6"/>
+          </g>
+        </svg>
+      </div>
+      <div>
+        <p>1. From the moment I saw you I knew my days would be brighter.</p>
+        <p>2. Your laugh is my favorite song, your smile my favorite sight.</p>
+        <p>3. You are my safe place, my adventure, my quiet and my storm.</p>
+      </div>
+    </div>
+
+    <p>4. Every small thing you do — the way you tilt your head, the silly jokes, the midnight talk — means everything to me.</p>
+    <p>5. Thank you for believing in us, for holding my hand and for letting me hold yours.</p>
+    <p>6. I promise to keep choosing you, to listen, to learn, and to laugh with you.</p>
+
+    <button class="celebrate" onclick="celebrate()">💖 Celebrate</button>
+  </section>
+
+  <!-- PAGE 2 -->
+  <section id="page-1" class="page enter-right hidden">
+    <div class="title">Sweet Memories</div>
+    <div class="subtitle">Moments that make our story beautiful</div>
+
+    <p>1. The first coffee we shared — I still remember the way your eyes lit up.</p>
+    <p>2. That rainy evening when we got soaked and didn't care — we danced like the world stopped.</p>
+    <p>3. The little notes you left — tiny treasures I keep in my pocket.</p>
+    <p>4. Your silly selfies, the inside jokes, and the playlists we made together.</p>
+    <p>5. The quiet Sundays and loud movie nights — both feel perfect because you are with me.</p>
+
+    <p>6. I replay our best days in my head and smile — then I look at you and realise we're still making them.</p>
+  </section>
+
+  <!-- PAGE 3 -->
+  <section id="page-2" class="page enter-right hidden">
+    <div class="title">A Letter to My Love</div>
+    <div class="subtitle">A few honest words from Lov / Hubby</div>
+
+    <p>1. Babeeeeee, you are my home. There is calm in your voice and wildness in your heart — and I love both.</p>
+    <p>2. You taught me patience, the beauty of small things, and how to be kinder to myself.</p>
+    <p>3. I will try every day to be the person you deserve: present, loving and a little silly too.</p>
+    <p>4. Let's keep dreaming big, laughing loudly, and holding tight when the world is loud.</p>
+
+    <p style="margin-top:12px;font-weight:700;">With all my love, always — Lov ❤️</p>
+  </section>
+
+</div>
+
+<div class="pager">
+  <button class="pill" onclick="showPage(0)">Love Note</button>
+  <button class="pill" onclick="showPage(1)">Memories</button>
+  <button class="pill" onclick="showPage(2)">Letter</button>
+</div>
+
+  </main>  <script>
+    const pages = [document.getElementById('page-0'),document.getElementById('page-1'),document.getElementById('page-2')];
+    let current = 0;
+    function showPage(i){
+      if(i===current) return;
+      const dir = i>current? 'enter-right':'enter-left';
+      pages.forEach((p,idx)=>{
+        p.classList.add('hidden');
+        p.classList.remove('active','enter-left','enter-right');
+        if(idx===i){
+          p.classList.remove('hidden');
+          p.classList.add('active');
+        }
+      });
+      current=i;
+    }
+
+    // Celebrate: spawn floating hearts
+    function celebrate(){
+      for(let i=0;i<12;i++){
+        createHeart(12 + i*4);
+      }
+    }
+    function createHeart(delay){
+      const el = document.createElement('div');
+      el.className='heart-float';
+      el.style.left = (20 + Math.random()*60) + '%';
+      el.style.top = (60 + Math.random()*20) + '%';
+      const hue = Math.floor(330 + Math.random()*20);
+      el.innerHTML = `
+        <svg class="heart-svg" viewBox="0 0 32 29" xmlns="http://www.w3.org/2000/svg">
+          <path d="M23.6 0c-2.8 0-4.8 1.6-6 3.2-1.2-1.6-3.2-3.2-6-3.2C4.4 0 0 4.2 0 9.2 0 16.5 16 29 16 29s16-12.5 16-19.8C32 4.2 27.6 0 23.6 0z" fill="hsl(${hue} 90% 65%)"/>
+        </svg>`;
+      document.body.appendChild(el);
+      const scale = 0.8 + Math.random()*0.7;
+      el.animate([
+        {transform:`translateY(0) scale(${scale})`, opacity:1},
+        {transform:`translateY(-220px) scale(${scale+0.3})`, opacity:0}
+      ],{duration:2200 + Math.random()*1200, easing:'cubic-bezier(.2,.9,.3,1)', delay:delay});
+      setTimeout(()=>el.remove(), 4000 + delay);
+    }
+
+    // Small keyboard nav
+    document.addEventListener('keydown', e=>{
+      if(e.key==='ArrowRight') showPage(Math.min(current+1, pages.length-1));
+      if(e.key==='ArrowLeft') showPage(Math.max(current-1,0));
+    });
+
+    // Auto slide on load a bit for effect
+    setTimeout(()=>{ if(current===0) showPage(0); }, 300);
+  </script></body>
+</html>

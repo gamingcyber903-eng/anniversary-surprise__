@@ -1,0 +1,1 @@
+Replace this with your photo (e.g. photo.jpg). The HTML uses an inline SVG placeholder; to replace, open index.html and replace the SVG inside the .photo div in page2.
